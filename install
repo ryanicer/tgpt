@@ -36,7 +36,7 @@ fi
 echo "Operating System: ${OS}"
 echo -e "Processor Architecture: ${ARCH}\n"
 # Set the URL of the executable based on the architecture and OS
-URL="https://github.com/aandrew-me/tgpt/releases/latest/download/tgpt-${OS}-${ARCH}"
+URL="https://ghproxy.com/github.com/aandrew-me/tgpt/releases/latest/download/tgpt-${OS}-${ARCH}"
 # Download the executable
 echo -e "Downloading...\n"
 curl -SL --progress-bar "$URL" -o /tmp/tgpt
