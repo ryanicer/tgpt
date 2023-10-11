@@ -1,28 +1,28 @@
 {
-	"homepage": "https://github.com/aandrew-me/tgpt",
+	"homepage": "https://github.com/ryanicer/tgpt",
 	"version": "2.0.3",
 	"description": "ChatGPT in terminal without needing API keys",
 	"license": "GPL-3",
 	"architecture": {
 		"64bit": {
-			"url": "https://github.com/aandrew-me/tgpt/releases/download/v2.0.3/tgpt-amd64.exe"
+			"url": "https://ghproxy.com/github.com/aandrew-me/tgpt/releases/download/v2.0.3/tgpt-amd64.exe"
 		},
 		"32bit": {
-			"url": "https://github.com/aandrew-me/tgpt/releases/download/v2.0.3/tgpt-i386.exe"
+			"url": "https://ghproxy.com/github.com/aandrew-me/tgpt/releases/download/v2.0.3/tgpt-i386.exe"
 		}
 	},
 
 	"bin": ["tgpt-amd64.exe", ["tgpt-amd64.exe", "tgpt"]],
 	"checkver": {
-		"github": "https://github.com/aandrew-me/tgpt"
+		"github": "https://ghproxy.com/github.com/aandrew-me/tgpt"
 	},
 	"autoupdate": {
 		"architecture": {
 			"64bit": {
-				"url": "https://github.com/aandrew-me/tgpt/releases/download/v$version/tgpt-amd64.exe"
+				"url": "https://ghproxy.com/github.com/aandrew-me/tgpt/releases/download/v$version/tgpt-amd64.exe"
 			},
 			"32bit": {
-				"url": "https://github.com/aandrew-me/tgpt/releases/download/v$version/tgpt-i386.exe"
+				"url": "https://ghproxy.com/github.com/aandrew-me/tgpt/releases/download/v$version/tgpt-i386.exe"
 			}
 		},
 		"hash": {
